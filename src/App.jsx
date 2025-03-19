@@ -1,14 +1,13 @@
 import ImageMagnifier from "./components/ImageMagnifier";
-import villageImage from "./assets/villege.jpeg"; // Import the image
 
 const App = () => {
   return (
     <div className="container">
-      {/* Pass the imported image as a prop */}
-      <ImageMagnifier imageUrl={villageImage} />
+      <ImageMagnifier imageUrl="/villege.jpeg" /> {/* Use direct public path */}
     </div>
   );
 };
 
 export default App;
+
 
