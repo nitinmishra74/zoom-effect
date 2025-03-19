@@ -3,7 +3,7 @@ import ImageMagnifier from "./components/ImageMagnifier";
 const App = () => {
   return (
     <div className="container">
-      <ImageMagnifier imageUrl="/villege.jpeg" /> {/* Use direct public path */}
+      <ImageMagnifier imageUrl="/image.jpg" /> {/* Use direct public path */}
     </div>
   );
 };
